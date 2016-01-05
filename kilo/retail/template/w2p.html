@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<title>
+		Laptops 
+	</title>
+<style>
+        @font-face {
+                font-family: 'gothic';
+                src: url({% static './Ruritania.ttf' %})  format('truetype');;
+        }
+	@font-face {
+		font-family: 'newspaper';
+		src: url({% static './OldNewspaperTypes.ttf' %})  format('truetype');;
+	}
+	@font-face {
+                font-family: 'typewriter';
+                src: url({% static './Essays1743.ttf' %})  format('truetype');;
+        }
+
+	body{
+		background-repeat:repeat;
+	}
+	.left {
+		float:right;
+	}
+	img {
+                width:145px;
+                height:95px;
+                margin-top:2px;
+                margin-left:40px;
+	}
+	.cell{
+		background-color:#FFFFF0;
+		#border:solid 1px black;
+	}
+	.brend {
+		font-weight:bold;
+	}
+	.doolar {
+		font-family:typewriter;
+		float:right;
+	}
+	.imeg{
+	}
+	.neme{
+		font-family:newspaper;
+		float:right;
+	}
+	.mycontent{
+	}
+	.a2 {
+		#border:solid 1px black;
+	}
+
+
+</style>
+
+<script>
+	$(document).ready( function() {
+
+		console.log('loading store' + new Date());
+
+		$.ajax( {
+                        url:'/store1',
+                        success:function(a,b,c){
+                                console.log('loaded store : '+ new Date());
+				render(c.responseText);
+                        },
+                        dataType:'html',
+                });
+
+		function render(x) {
+			console.log( 'in helper');
+			var a = JSON.parse(x);
+			
+			h = to_row(a);
+		}
+
+		function to_row(x) {
+			var a = ""
+			for( var x0 = 0 ; x0 < x.length/4 ; x0 ++ ) {
+				a += "<div class='row'>"
+				for( var x1 = 0 ; x1 < 4 ; x1 ++ ) {
+					var y = x.pop();
+					console.log( '>' + x1 + x0*4);
+					a +=  "<div class='col-md-3 a2'>" + to_cell( y) + "</div>" + a;
+				console.log( 'inner exit ' + x0 +'/'+ x1);
+				}	
+				a += "</div>";
+                	$('.container').append( a);
+				a = "";
+				console.log( 'outer exit ' + x0 +'/'+ x1);
+			}	
+			console.log( 'outtah ere');
+			return a;
+		}
+
+		function to_cell( x) {
+			var a = "<div class='cell'> 				\
+					<div class='imeg'>image</div>		\
+					<div class='brend'>brand</div>		\
+					<div class='neme'>name</div>		\
+					<div class='doolar'>			\
+					<span style='font-family:typewriter;border:solid 1px grey;float:left;'>$price</span> \
+					</div>			\
+				</div>";
+
+			a = a.replace( 'brand', x['brand']);
+			a = a.replace( 'name', x['name']);
+			a = a.replace( 'image', '<img src="'+x['img'] +'"/>');
+			a = a.replace( 'price', x['price']);
+
+			return a;
+		}
+
+	});	
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67365759-1', 'auto');
+  ga('require', 'linkid');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="row" style="margin-top:40px;">
+			<div class="col-md-12 style="height:80px;">
+				<span style="font-family:gothic;font-size:50px;margin-left:300px;">
+					T
+				</span>
+				<span style="font-family:typewriter;font-size:50px;">he </span>
+				<span style="font-family:gothic;font-size:50px;">L</span>
+				<span style="font-family:typewriter;font-size:50px;">aptop </span>
+				<span style="font-family:gothic;font-size:50px;">E</span>
+				<span style="font-family:typewriter;font-size:50px;">nquirer</span>
+			</div>
+			<div style="height:10px;">
+				<div style="float:right;">
+					date
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div style="border:solid 1px black;"></div>
+			<div> 
+				<span style="font-family:typewriter;">
+					support@laptop-enquirer.com
+				</span>
+			</div>
+			<div style="border:solid 1px black;"></div>
+		</div>
+
+		<div class="row">
+			<span style="font-family:newspaper;text-decoration:underline;"><ul>Sears classifieds</ul></span>
+		</div>
+		<div class="mycontent"></div>
+
+	</div>
+</body>
+
+</html>

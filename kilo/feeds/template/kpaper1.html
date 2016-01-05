@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<title>
+		K Paper
+	</title>
+<style>
+	@font-face {
+		font-family: 'newspaper';
+		src: url({% static './OldNewspaperTypes.ttf' %})  format('truetype');;
+	}
+	@font-face {
+		font-family: 'typewriter';
+		src: url({% static './Essays1743.ttf' %})  format('truetype');;
+	}
+	@font-face {
+		font-family: 'gothic';
+		src: url({% static './Ruritania.ttf' %})  format('truetype');;
+	}
+	body{
+		background-image: url({% static './white_wall.png' %});
+		background-repeat:repeat;
+		font-family:newspaper;
+	}
+	div {
+		border:solid 1px black;
+		border-radius:10px;
+	}
+	h1 {
+		font-family:gothic;
+		font-size:4em;
+	}
+	.a1 {
+		margin-left:200px;
+	}
+
+</style>
+
+<script>
+	$(document).ready(function(){
+		console.log('loading paper' + new Date());
+	});	
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67365759-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="row" style="margin-top:4px;">
+				<div class="col-md-12 a1">
+					<h1>
+						Completely Worthless Tea Time Post
+					</h1>
+				</div>
+		</div>
+		<div class="row" style="margin-top:4px;">
+			<div class="col-md-3">
+				<h2> Charter </h2>
+			</div>
+			<div class="col-md-3">
+				<p>
+	For Fat Tony, humanity started at the level of “self-ownership.” Being the owner of your opinion. And it has nothing to do with wealth, birth, intelligence, looks, shoe size, rather with personal courage.
+				</p>
+				<span style="font-style:italic;">Derek Sivers on Antifragile</span>
+			</div>
+			<div class="col-md-3">
+				Hacker Rank in SBCL. Now that's an idea.
+				<p>
+					Come to W3C bootstrap and use the site !
+					so much to learn here !
+				</p>
+			</div>
+			<div class="col-md-3">
+				<ul>
+					<li> buy a domain </li>
+					<li> buy ad words</li>
+					<li> sell digital real estate</li>
+					<li> look at google analytics, cj and see how conversions happen</li>
+					
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- row 2 -->
+		<div class="row" style="margin-top:4px;">
+			<div class="col-md-3">
+				<span style="font-family:typewriter;font-size:2.5em;">	
+					Our GTD project ! 
+				</span>
+				
+			</div>
+			<div class="col-md-3">
+				Stock market and DCA project
+				Goethe  - boldness
+			</div>
+			<div class="col-md-3">
+				Fambly relations project -> Iyengar store
+			</div>
+			<div class="col-md-3">
+				Drucker LazyMansGuideToEnlightenment <br>
+				I will remix music one day, and play the piano
+				Derek Sivers - you have to start with v0.000000001
+				Jason Fried
+				Kathy Sierra - How to kick ass (is how the world works)
+				Felix Dennis
+				McLuhan - I'll see it when I believe it
+				Learning to work primarily on yourself - Rohn
+				Ultimately the motorcycle you are working on is yourself - Pirsig
+			</div>
+		</div>
+		<div class="row" style="margin-top:4px;">
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-4">
+“When you grow up you tend to get told that the world is the way it is and you're life is just to live your life inside the world. Try not to bash into the walls too much. Try to have a nice family life, have fun, save a little money. That's a very limited life. Life can be much broader once you discover one simple fact: Everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it… Once you learn that, you'll never be the same again.”
+			</div>
+			<div class="col-md-6">
+				<h3>Jan Chozen : How to train a wild elephant</h3>
+			</div>
+		</div>
+		<!--
+			Taeping_(clipper,_1863)_-_SLV_H91.325-1033
+		-->
+
+	
+		<div class="row" style="margin-top:4px;">
+			<div class="col-md-3">
+				<img style="width:200px;height:200px;border-radius: 25px;border:solid 1px black;" src="{% static "./clipper.jpg" %}" alt="Taeping_(clipper,_1863)_-_SLV_H91.325-103(Wikimedia Commons)"/>
+			</div>
+			<div class="col-md-5">
+				<p>
+					<span style="font-family:gothic;font-size:2em;">If</span> you wish to be Taipan, first get a ship
+				</p>
+			</div>
+			<div class="col-md-4">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<title>
+		Laptops 
+	</title>
+<style>
+	@font-face {
+		font-family: 'oldnewspaper';
+		src: url({% static './OldNewspaperTypes.ttf' %})  format('truetype');;
+	}
+	body{
+		#background-image: url({% static './white_wall.png' %});
+		background-repeat:repeat;
+	}
+	#unit {
+		
+		border:solid 1px #B2BEB1;
+	}
+	.a1 {
+		margin-top:4px;
+		margin-bottom:4px;
+		#border:solid 1px #111111;
+	}	
+	img {
+		width:145px;
+		height:95px;
+		margin-top:2px;
+		margin-left:40px;
+		border:solid 1px #F5F5DC;
+	}
+	.big_img {
+		height: 550px; 
+		width: 550px; 
+		position: absolute;
+	}
+	.a2 {
+
+	}
+	.cell {
+	
+		height:235px;
+		margin-top:2px;
+		margin-bottom:2px;
+		border: solid 1px transparent;
+		#border: solid 1px #B2BEB5;
+		#background-image: url({% static './dark_embroidery.png' %});
+		#background-repeat:repeat;
+	}
+	.title{
+		padding:5px;
+		#font-family: "oldnewspaper";
+		font-family: "Times New Roman", Times, serif;
+		font-size: 1em;
+	}
+	.brand {
+		background-color:#C4D8E2;
+	}
+	.brand-name {
+		font-size:1em;
+		font-weight: bold;
+		margin-left:5px;
+	}
+	.price {
+		float:right;
+		font-size:1 em;
+		font-weight:bold;
+		#background-color:#F5F5DC;
+		background-color:#EAE0C8;
+		border:solid 1px #B2BEB5;
+	}
+
+</style>
+
+<script>
+	$(document).ready(function(){
+		console.log('loading store' + new Date());
+		// $('img').hover( function(){console.log(32);});
+		/*
+		$('img').on({
+		    mousemove: function(e) {
+			$(this).next('img').css({
+			    top: e.pageY -260,
+			    left: e.pageX +10
+			});
+		    },
+		    mouseenter: function() {
+			var big = $('<img />', {'class': 'big_img', src: this.src});
+			$(this).after(big);
+		    },
+		    mouseleave: function() {
+			$('.big_img').remove();
+		    }
+		});
+		*/
+	});	
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67365759-1', 'auto');
+  ga('require', 'linkid');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="row" style="margin-top:4px;">
+				<div class="col-md-12 col-lg-12 col-sm-12 a1" style="background-color:#1C39B2; height:50px;"></div>
+		</div>
+		<div class="row">
+		<!--
+				<div class="col-md-3 a1" style=" height:50px;"></div>
+				<div class="col-md-3 a1" style=" height:50px;"></div>
+				<div class="col-md-3 a1" style=" height:50px;"></div>
+				<div class="col-md-3 a1" style=" height:50px;"></div>
+		-->		
+		</div>
+
+		<div id='mycontent'>
+			{% autoescape off %} {{ rows }} {% endautoescape %}
+		</div>
+	</div>
+</body>
+
+</html>

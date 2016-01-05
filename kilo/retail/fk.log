@@ -1,0 +1,289 @@
+{
+    "productInfoList": [
+        {
+            "productBaseInfo": {
+                "productIdentifier": {
+                    "categoryPaths": {
+                        "categoryPath": [
+                            [
+                                {
+                                    "title": "Computers>Laptops"
+                                }
+                            ]
+                        ]
+                    }, 
+                    "productId": "COME3P93JFPYRFUX"
+                }, 
+                "productAttributes": {
+                    "productDescription": null, 
+                    "colorVariants": null, 
+                    "title": "Asus EeeBook X205TA Notebook (4th Gen Atom Quad Core/ 2GB/ 32GB EMMC/ Win 8.1/Office 365)", 
+                    "color": "Dark Blue", 
+                    "codAvailable": true, 
+                    "emiAvailable": null, 
+                    "styleCode": null, 
+                    "offers": [], 
+                    "productUrl": "http://dl.flipkart.com/dl/asus-eeebook-x205ta-notebook-4th-gen-atom-quad-core-2gb-32gb-emmc-win-8-1-office-365/p/itme3yf79ssdyjaf?pid=COME3P93JFPYRFUX&affid=goingkilo", 
+                    "discountPercentage": 0.0, 
+                    "productBrand": "Asus", 
+                    "inStock": true, 
+                    "maximumRetailPrice": {
+                        "currency": "INR", 
+                        "amount": 14990.0
+                    }, 
+                    "cashBack": null, 
+                    "size": null, 
+                    "imageUrls": {
+                        "1100x1100": "http://img5a.flixcart.com/image/computer/f/u/x/asus-eeebook-netbook-x205ta-1100x1100-imae3uhhuqcghzhr.jpeg", 
+                        "100x100": "http://img6a.flixcart.com/image/computer/f/u/x/asus-eeebook-netbook-x205ta-100x100-imae3uhhuqcghzhr.jpeg", 
+                        "40x40": "http://img5a.flixcart.com/image/computer/f/u/x/asus-eeebook-netbook-x205ta-40x40-imae3uhhuqcghzhr.jpeg", 
+                        "400x400": "http://img5a.flixcart.com/image/computer/f/u/x/asus-eeebook-netbook-x205ta-400x400-imae3uhhuqcghzhr.jpeg", 
+                        "unknown": "http://img5a.flixcart.com/image/computer/f/u/x/asus-eeebook-netbook-x205ta-original-imae3uhhuqcghzhr.jpeg", 
+                        "275x275": "http://img6a.flixcart.com/image/computer/f/u/x/asus-eeebook-netbook-x205ta-275x275-imae3uhhuqcghzhr.jpeg", 
+                        "75x75": "http://img5a.flixcart.com/image/computer/f/u/x/asus-eeebook-netbook-x205ta-75x75-imae3uhhuqcghzhr.jpeg", 
+                        "200x200": "http://img5a.flixcart.com/image/computer/f/u/x/asus-eeebook-netbook-x205ta-200x200-imae3uhhuqcghzhr.jpeg", 
+                        "125x125": "http://img5a.flixcart.com/image/computer/f/u/x/asus-eeebook-netbook-x205ta-125x125-imae3uhhuqcghzhr.jpeg"
+                    }, 
+                    "sizeVariants": "[COME3P93CZYYQ5YH, COME3P93H4ZXT55Z, COME3P93QHFFYYGX]", 
+                    "sizeUnit": "", 
+                    "sellingPrice": {
+                        "currency": "INR", 
+                        "amount": 14990.0
+                    }
+                }
+            }, 
+            "offset": null, 
+            "productShippingBaseInfo": {
+                "shippingOptions": null
+            }
+        }, 
+        {
+            "productBaseInfo": {
+                "productIdentifier": {
+                    "categoryPaths": {
+                        "categoryPath": [
+                            [
+                                {
+                                    "title": "Computers>Laptops"
+                                }
+                            ]
+                        ]
+                    }, 
+                    "productId": "COME8FFPVHKACMVB"
+                }, 
+                "productAttributes": {
+                    "productDescription": null, 
+                    "colorVariants": null, 
+                    "title": "HP 15-af024AU APU Quad Core A8 - (4 GB DDR3/1 TB HDD/Windows 8.1) Notebook", 
+                    "color": "Turbo SIlver Color With Diamond & Cross Brush Pattern", 
+                    "codAvailable": true, 
+                    "emiAvailable": null, 
+                    "styleCode": null, 
+                    "offers": [], 
+                    "productUrl": "http://dl.flipkart.com/dl/hp-15-af024au-apu-quad-core-a8-4-gb-ddr3-1-tb-hdd-windows-8-1-notebook/p/itme8ffqx5fmrdjh?pid=COME8FFPVHKACMVB&affid=goingkilo", 
+                    "discountPercentage": 16.0, 
+                    "productBrand": "HP", 
+                    "inStock": false, 
+                    "maximumRetailPrice": {
+                        "currency": "INR", 
+                        "amount": 30990.0
+                    }, 
+                    "cashBack": null, 
+                    "size": null, 
+                    "imageUrls": {
+                        "1100x1100": "http://img5a.flixcart.com/image/computer/m/v/b/hp-notebook-1100x1100-imae8h7yybwgjjmd.jpeg", 
+                        "100x100": "http://img5a.flixcart.com/image/computer/m/v/b/hp-notebook-100x100-imae8h7yybwgjjmd.jpeg", 
+                        "40x40": "http://img5a.flixcart.com/image/computer/m/v/b/hp-notebook-40x40-imae8h7yybwgjjmd.jpeg", 
+                        "400x400": "http://img6a.flixcart.com/image/computer/m/v/b/hp-notebook-400x400-imae8h7yybwgjjmd.jpeg", 
+                        "unknown": "http://img6a.flixcart.com/image/computer/m/v/b/hp-notebook-original-imae8h7yybwgjjmd.jpeg", 
+                        "275x275": "http://img5a.flixcart.com/image/computer/m/v/b/hp-notebook-275x275-imae8h7yybwgjjmd.jpeg", 
+                        "75x75": "http://img6a.flixcart.com/image/computer/m/v/b/hp-notebook-75x75-imae8h7yybwgjjmd.jpeg", 
+                        "200x200": "http://img6a.flixcart.com/image/computer/m/v/b/hp-notebook-200x200-imae8h7yybwgjjmd.jpeg", 
+                        "125x125": "http://img6a.flixcart.com/image/computer/m/v/b/hp-notebook-125x125-imae8h7yybwgjjmd.jpeg"
+                    }, 
+                    "sizeVariants": "[]", 
+                    "sizeUnit": "", 
+                    "sellingPrice": {
+                        "currency": "INR", 
+                        "amount": 25990.0
+                    }
+                }
+            }, 
+            "offset": null, 
+            "productShippingBaseInfo": {
+                "shippingOptions": null
+            }
+        }, 
+        {
+            "productBaseInfo": {
+                "productIdentifier": {
+                    "categoryPaths": {
+                        "categoryPath": [
+                            [
+                                {
+                                    "title": "Computers>Laptops"
+                                }
+                            ]
+                        ]
+                    }, 
+                    "productId": "COME4S4UBXHCRD7J"
+                }, 
+                "productAttributes": {
+                    "productDescription": null, 
+                    "colorVariants": null, 
+                    "title": "Lenovo G50-70 Notebook (4th Gen Ci3/ 4GB/ 1TB/ Free DOS) (59-442243)", 
+                    "color": "Black", 
+                    "codAvailable": true, 
+                    "emiAvailable": null, 
+                    "styleCode": null, 
+                    "offers": [], 
+                    "productUrl": "http://dl.flipkart.com/dl/lenovo-g50-70-notebook-4th-gen-ci3-4gb-1tb-free-dos-59-442243/p/itmeb2hawgfug9tb?pid=COME4S4UBXHCRD7J&affid=goingkilo", 
+                    "discountPercentage": 17.0, 
+                    "productBrand": "Lenovo", 
+                    "inStock": true, 
+                    "maximumRetailPrice": {
+                        "currency": "INR", 
+                        "amount": 32999.0
+                    }, 
+                    "cashBack": null, 
+                    "size": null, 
+                    "imageUrls": {
+                        "1100x1100": "http://img5a.flixcart.com/image/computer/d/7/j/lenovo-notebook-1100x1100-imae4u4afqmwzd5g.jpeg", 
+                        "100x100": "http://img6a.flixcart.com/image/computer/d/7/j/lenovo-notebook-100x100-imae4u4afqmwzd5g.jpeg", 
+                        "40x40": "http://img6a.flixcart.com/image/computer/d/7/j/lenovo-notebook-40x40-imae4u4afqmwzd5g.jpeg", 
+                        "400x400": "http://img6a.flixcart.com/image/computer/d/7/j/lenovo-notebook-400x400-imae4u4afqmwzd5g.jpeg", 
+                        "unknown": "http://img5a.flixcart.com/image/computer/d/7/j/lenovo-notebook-original-imae4u4afqmwzd5g.jpeg", 
+                        "275x275": "http://img6a.flixcart.com/image/computer/d/7/j/lenovo-notebook-275x275-imae4u4afqmwzd5g.jpeg", 
+                        "75x75": "http://img5a.flixcart.com/image/computer/d/7/j/lenovo-notebook-75x75-imae4u4afqmwzd5g.jpeg", 
+                        "200x200": "http://img6a.flixcart.com/image/computer/d/7/j/lenovo-notebook-200x200-imae4u4afqmwzd5g.jpeg", 
+                        "125x125": "http://img6a.flixcart.com/image/computer/d/7/j/lenovo-notebook-125x125-imae4u4afqmwzd5g.jpeg"
+                    }, 
+                    "sizeVariants": "[]", 
+                    "sizeUnit": "", 
+                    "sellingPrice": {
+                        "currency": "INR", 
+                        "amount": 27307.0
+                    }
+                }
+            }, 
+            "offset": null, 
+            "productShippingBaseInfo": {
+                "shippingOptions": null
+            }
+        }, 
+        {
+            "productBaseInfo": {
+                "productIdentifier": {
+                    "categoryPaths": {
+                        "categoryPath": [
+                            [
+                                {
+                                    "title": "Computers>Laptops"
+                                }
+                            ]
+                        ]
+                    }, 
+                    "productId": "COME8YJ4BEFZUANH"
+                }, 
+                "productAttributes": {
+                    "productDescription": null, 
+                    "colorVariants": null, 
+                    "title": "HP 15-ac042TU (Notebook) (Core i3 4th Gen/ 4GB/ 1TB/ Free DOS) (M9U96PA)", 
+                    "color": "Jack Black Color With Textured Diamond Pattern", 
+                    "codAvailable": true, 
+                    "emiAvailable": null, 
+                    "styleCode": null, 
+                    "offers": [], 
+                    "productUrl": "http://dl.flipkart.com/dl/hp-15-ac042tu-notebook-core-i3-4th-gen-4gb-1tb-free-dos-m9u96pa/p/itme8yj4c8uakn2d?pid=COME8YJ4BEFZUANH&affid=goingkilo", 
+                    "discountPercentage": 10.0, 
+                    "productBrand": "HP", 
+                    "inStock": true, 
+                    "maximumRetailPrice": {
+                        "currency": "INR", 
+                        "amount": 32021.0
+                    }, 
+                    "cashBack": null, 
+                    "size": null, 
+                    "imageUrls": {
+                        "1100x1100": "http://img5a.flixcart.com/image/computer/a/n/h/hp-notebook-1100x1100-imae8yz3ncvzh5vu.jpeg", 
+                        "100x100": "http://img5a.flixcart.com/image/computer/a/n/h/hp-notebook-100x100-imae8yz3ncvzh5vu.jpeg", 
+                        "40x40": "http://img6a.flixcart.com/image/computer/a/n/h/hp-notebook-40x40-imae8yz3ncvzh5vu.jpeg", 
+                        "400x400": "http://img5a.flixcart.com/image/computer/a/n/h/hp-notebook-400x400-imae8yz3ncvzh5vu.jpeg", 
+                        "unknown": "http://img5a.flixcart.com/image/computer/a/n/h/hp-notebook-original-imae8yz3ncvzh5vu.jpeg", 
+                        "275x275": "http://img5a.flixcart.com/image/computer/a/n/h/hp-notebook-275x275-imae8yz3ncvzh5vu.jpeg", 
+                        "75x75": "http://img5a.flixcart.com/image/computer/a/n/h/hp-notebook-75x75-imae8yz3ncvzh5vu.jpeg", 
+                        "200x200": "http://img5a.flixcart.com/image/computer/a/n/h/hp-notebook-200x200-imae8yz3ncvzh5vu.jpeg", 
+                        "125x125": "http://img6a.flixcart.com/image/computer/a/n/h/hp-notebook-125x125-imae8yz3ncvzh5vu.jpeg"
+                    }, 
+                    "sizeVariants": "[]", 
+                    "sizeUnit": "", 
+                    "sellingPrice": {
+                        "currency": "INR", 
+                        "amount": 28800.0
+                    }
+                }
+            }, 
+            "offset": null, 
+            "productShippingBaseInfo": {
+                "shippingOptions": null
+            }
+        }, 
+        {
+            "productBaseInfo": {
+                "productIdentifier": {
+                    "categoryPaths": {
+                        "categoryPath": [
+                            [
+                                {
+                                    "title": "Computers>Laptops"
+                                }
+                            ]
+                        ]
+                    }, 
+                    "productId": "COME4MFBUXXTNZYE"
+                }, 
+                "productAttributes": {
+                    "productDescription": null, 
+                    "colorVariants": null, 
+                    "title": "HP 13-C019TU Stream (Notebook) (4th CDC/ 2GB/ 32GB EMMC/ Win8.1) (K8T73PA)", 
+                    "color": "Horizon Blue", 
+                    "codAvailable": true, 
+                    "emiAvailable": null, 
+                    "styleCode": null, 
+                    "offers": [], 
+                    "productUrl": "http://dl.flipkart.com/dl/hp-13-c019tu-stream-notebook-4th-cdc-2gb-32gb-emmc-win8-1-k8t73pa/p/itme4mfbg3sr5tmq?pid=COME4MFBUXXTNZYE&affid=goingkilo", 
+                    "discountPercentage": 30.0, 
+                    "productBrand": "HP", 
+                    "inStock": true, 
+                    "maximumRetailPrice": {
+                        "currency": "INR", 
+                        "amount": 22990.0
+                    }, 
+                    "cashBack": null, 
+                    "size": null, 
+                    "imageUrls": {
+                        "1100x1100": "http://img6a.flixcart.com/image/computer/z/y/e/hp-stream-notebook-1100x1100-imae69g6adhpzgqc.jpeg", 
+                        "100x100": "http://img6a.flixcart.com/image/computer/z/y/e/hp-stream-notebook-100x100-imae69g6adhpzgqc.jpeg", 
+                        "40x40": "http://img6a.flixcart.com/image/computer/z/y/e/hp-stream-notebook-40x40-imae69g6adhpzgqc.jpeg", 
+                        "400x400": "http://img6a.flixcart.com/image/computer/z/y/e/hp-stream-notebook-400x400-imae69g6adhpzgqc.jpeg", 
+                        "unknown": "http://img6a.flixcart.com/image/computer/z/y/e/hp-stream-notebook-original-imae69g6adhpzgqc.jpeg", 
+                        "275x275": "http://img5a.flixcart.com/image/computer/z/y/e/hp-stream-notebook-275x275-imae69g6adhpzgqc.jpeg", 
+                        "75x75": "http://img5a.flixcart.com/image/computer/z/y/e/hp-stream-notebook-75x75-imae69g6adhpzgqc.jpeg", 
+                        "200x200": "http://img6a.flixcart.com/image/computer/z/y/e/hp-stream-notebook-200x200-imae69g6adhpzgqc.jpeg", 
+                        "125x125": "http://img5a.flixcart.com/image/computer/z/y/e/hp-stream-notebook-125x125-imae69g6adhpzgqc.jpeg"
+                    }, 
+                    "sizeVariants": "[]", 
+                    "sizeUnit": "", 
+                    "sellingPrice": {
+                        "currency": "INR", 
+                        "amount": 15999.0
+                    }
+                }
+            }, 
+            "offset": null, 
+            "productShippingBaseInfo": {
+                "shippingOptions": null
+            }
+        }
+    ]
+}

@@ -38,7 +38,11 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hello'
+    'hello',
+    'kilo.feeds',
+    'kilo.maps',
+    'kilo.notes',
+    'kilo.retail',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -57,7 +61,9 @@ ROOT_URLCONF = 'gettingstarted.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+		os.path.join(BASE_DIR, 'kilo', 'feeds', 'template')
+	],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -112,8 +118,12 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
 
+print 'XXXXXXXXXXXXXXXXXXX' +os.path.join(BASE_DIR, '..','kilo', 'feeds', 'static')
+print 'XXX0000000000XXXXXX' +   os.path.join(BASE_DIR, 'static'),
+
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, '..', 'kilo', 'feeds', 'static')
 )
 
 # Simplified static file serving.
