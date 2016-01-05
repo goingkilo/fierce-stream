@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-{% load staticfiles %}
 <html>
 
 <head>
@@ -9,6 +8,7 @@
 		A Kilo of Newspaper
 	</title>
 <style>
+	{% load staticfiles %}
 	@font-face {
 		font-family: 'newspaper';
 		#src: url({% static './fonts/OldNewspaperTypes.ttf' %})  format('truetype');;
@@ -122,7 +122,7 @@ When you grow up you tend to get told that the world is the way it is and you're
 				</div>
 			</div>
 			<div class="col-md-3">
-					<img style="width:200px;height:200px;border-radius: 25px;border:solid 1px black;" src="{% static "./clipper.jpg" %}" alt="Taeping_(clipper,_1863)_-_SLV_H91.325-103(Wikimedia Commons)"/>
+					<img style="width:200px;height:200px;border-radius: 25px;border:solid 1px black;" src="{% static "./images/clipper.jpg" %}" alt="Taeping_(clipper,_1863)_-_SLV_H91.325-103(Wikimedia Commons)"/>
 <p>
 <p>
 The present is always invisible because its environmental. No environment is perceptible, simply because it saturates the whole field of attention. -Marshall McLuhan
@@ -142,7 +142,7 @@ The present is always invisible because its environmental. No environment is per
 			<div class="col-md-1">
 			</div>
 			<div class="col-md-6">
-				<img class="layercakeimg" src="{% static './layercake.png' %}"/>
+				<img class="layercakeimg" src="{% static './images/layercake.png' %}"/>
 				<p>
 				Always works in small teams. 
 				<p>
